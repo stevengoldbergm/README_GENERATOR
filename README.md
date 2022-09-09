@@ -1,65 +1,66 @@
 
-  # README_GENERATOR
+# README_GENERATOR
 
-  [![License: MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Table of Contents
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions?](#questions)
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions?](#questions)
 
-  ## Description
+## Description
 
-  The README GENERATOR creates professional README files without the fuss! 
-  
-  More specifically, it's is a console application that uses NODE.JS to guide the user through creating a README file.
+The README GENERATOR creates professional README files without the fuss! 
 
-  ![README_GENERATOR example](./assets/imgs/RMG2.png)
+More specifically, it's is a console application that uses NODE.JS to guide the user through creating a README file.
 
-  ## Installation
+![README_GENERATOR example](./assets/imgs/RMG2.png)
 
-  Once the repository is cloned, install the npm packages using the following command.
+## Installation
 
-    npm install
+Once the repository is cloned, install the npm packages using the following command.
 
-  ## Usage
+npm install
 
-  To use the README_GENERATOR, simply navigate to the project directory and run the ‘node index.js’ command in your terminal. 
-  
-  Once you've answered the prompts, you’ll have a new README file!
+## Usage
 
-  ![README_GENERATOR prompts](./assets/imgs/RMG.png)
+Watch a demo of the program in action [here](https://watch.screencastify.com/v/Z27Kh2U2O7A3RPOOA5nA)
 
-  
-  ## License
-  
-  [![License: MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+To use the README_GENERATOR, simply navigate to the project directory and run the ‘node index.js’ command in your terminal. 
 
-  This project uses the MIT license.
+Once you've answered the prompts, you’ll have a new README file!
 
-  Click the badge to access the full license details.
-  
-
-  ## Contributing
-
-  Please contact me if you wish to contribute! See the Questions section for my contact info.
-
-  ## Tests
-
-  Follow the below steps to test the program. . . maybe. I won't lie - I don't know how to test yet.
+![README_GENERATOR prompts](./assets/imgs/RMG.png)
 
 
-    npm test
+## License
 
-  ## Questions
+[![License: MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  For more information, feel free to contact me:
+This project uses the MIT license.
 
-  E-mail: [stevengoldbergm@mailPlaceholder.com](mailto:stevengoldbergm@mailPlaceholder.com)
+Click the badge to access the full license details.
 
-  GitHub: [github.com/stevengoldbergm](https://github.com/stevengoldbergm)
-  
+
+## Contributing
+
+Please contact me if you wish to contribute! See the Questions section for my contact info.
+
+## Tests
+
+Follow the below steps to test the program. . . maybe. I won't lie - I don't know how to test yet.
+
+
+npm test
+
+## Questions
+
+For more information, feel free to contact me:
+
+E-mail: [stevengoldbergm@mailPlaceholder.com](mailto:stevengoldbergm@mailPlaceholder.com)
+
+GitHub: [github.com/stevengoldbergm](https://github.com/stevengoldbergm)
