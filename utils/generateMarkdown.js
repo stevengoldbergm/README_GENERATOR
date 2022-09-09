@@ -1,7 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-let licenseBadge = ''
-let licenseLink = ''
+
+  // Defining base string variables for the below functions
+  let licenseBadge = ''
+  let licenseLink = ''
 
 function renderLicenseBadge(license) {
   switch (license) {
@@ -86,7 +88,7 @@ function renderLicenseSection(license) {
 
   This project uses the following license: ${license}.
 
-  Click the badge to access the full license text.
+  Click the badge to access the full license details.
   `
   } else {
     return ''
@@ -96,12 +98,13 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  // const {title, description, install, usage, license, cont, test, github, email} = data
+  // Console log to make sure my data is passing through as expected
   console.log(data.title);
   console.log(typeof(data.title));
   console.log(data.description);
   console.log(typeof(data.description));
 
+  // Created function to add (or remove) a badge at the top of the README based on license choice. It is called below
   function licenseBadgeCheck() {
     if (data.license !== 'None') {
       return `[![License: ${data.license}](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})`;
@@ -110,6 +113,7 @@ function generateMarkdown(data) {
     }
   }
 
+  // Begin generating markdown
   return `
   # ${data.title}
 

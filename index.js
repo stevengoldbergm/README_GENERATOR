@@ -5,7 +5,6 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-    // Apparently they wanted these formatted using inquirer objects.
 const questions = [
     {
         type: 'input',
@@ -77,11 +76,8 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    // Leverage the index file from lesson 20 to create the README file
-    // return fs.writeFileSync(path.join(process.cwd(), filename), data);
-
     return fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log('Success!')
+        err ? console.error(err) : console.log('Success!')
     )
 }
 
@@ -95,7 +91,7 @@ inquirer
         console.log(response)
 
         // Define a filename
-        const fileName = 'README.md';
+        const fileName = 'READMESAMPLE.md';
         console.log(fileName);
         
         // Define data
@@ -103,18 +99,8 @@ inquirer
 
         // Use the variables to initialize writeToFile(fileName, data)
         writeToFile(fileName, data);
-
-        // Delete below here -------------------------
-
-        // writeToFile('README.MD', generateMarkdown(response)); 
-
-        // Received help from instructional staff. I was not using a spread and it was causing issues.
-        // writeToFile('README.MD', generateMarkdown({...response})); 
         
-
     })
-
-
 
 }
 
