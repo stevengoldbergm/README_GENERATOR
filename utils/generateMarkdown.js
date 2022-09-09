@@ -86,7 +86,9 @@ function renderLicenseSection(license) {
   
   [![License: ${license}](${renderLicenseBadge(license)})](${renderLicenseLink(license)})
 
-  This project uses the following license: ${license}.
+  This project uses the following license: 
+  
+    ${license}
 
   Click the badge to access the full license details.
   `
@@ -126,7 +128,7 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
-  * [Questions?](#questions)
+  * [Questions](#questions)
 
   ## Description
 
@@ -134,7 +136,9 @@ function generateMarkdown(data) {
 
   ## Installation
 
-  ${data.install}
+  Follow the below steps to install the program:
+
+    ${data.install}
 
   ## Usage
 

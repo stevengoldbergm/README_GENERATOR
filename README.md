@@ -24,7 +24,7 @@ More specifically, it's is a console application that uses NODE.JS to guide the 
 
 Once the repository is cloned, install the npm packages using the following command.
 
-npm install
+    npm install
 
 ## Usage
 

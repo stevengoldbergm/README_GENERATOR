@@ -1,5 +1,5 @@
 
-  # README_GENERATOR
+  # README GENERATOR
 
   [![License: MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -10,7 +10,7 @@
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
-  * [Questions?](#questions)
+  * [Questions](#questions)
 
   ## Description
 
@@ -18,7 +18,9 @@
 
   ## Installation
 
-  npm install
+  Follow the below steps to install the program:
+
+    npm install
 
   ## Usage
 
@@ -29,7 +31,9 @@
   
   [![License: MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  This project uses the following license: MIT license.
+  This project uses the following license: 
+  
+    MIT license
 
   Click the badge to access the full license details.
   
@@ -48,7 +52,7 @@
 
   For more information, feel free to contact me:
 
-  E-mail: [stevengoldbergm@mail.com](mailto:stevengoldbergm@mail.com)
+  E-mail: [stevengoldbergm@fakemail.com](mailto:stevengoldbergm@fakemail.com)
 
   GitHub: [github.com/stevengoldbergm](https://github.com/stevengoldbergm)
   
